@@ -1,15 +1,23 @@
 body{
-  background-color: #eee
+  background-color: #B4DACB;
 }
 
 header{
+  margin-top: -10px;
   text-align: center;
+  font-family: 'Corben', cursive;
+  font-size: 30px;
+
 }
 
 .categories{
   text-align: center;
+  list-style: none;
 }
-
+ul{
+  list-style: none;
+  float: left;
+}
 .thecard {
   position: absolute;
   top: 40%;
@@ -43,24 +51,29 @@ header{
   position: absolute;
   height: 100%;
   width: 100%;
-  background: white;
+  background: #08ACA5;
   /*line-height: 300px;*/
-  color: #03446A;
+  color: white;
   text-align: center;
   font-size: 20px;
-  border-radius: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #B78E5A;
   backface-visibility: hidden;
 
 }
 
 .backcard {
-  background: #03446A;
+  background: #08ACA5;
   color: white;
   transform: rotateY( 180deg );
 }
 
+
+
 img{
   margin: 10px 1px 2px 1px;
+  border-style: solid;
 
   width: 250px;
   height: 250px;
@@ -71,9 +84,27 @@ img{
   font-size: 30px;
 
 }
-
+.who{
+  margin:10px 25px 10px 25px;
+  padding: 4px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.what{
+  margin:10px 25px 10px 25px;
+  padding: 4px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.when{
+  margin:10px 25px 10px 25px;
+  padding: 4px;
+  border-style: solid;
+  border-radius: 10px;
+}
 h5{
   margin: 0 auto;
+
 }
 
 
