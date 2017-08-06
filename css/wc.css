@@ -1,26 +1,40 @@
-body{
-  background-color: #B4DACB;
+
+/*remember that you edited bootstap line 776 to change h1 font and line 224 for the body*/
+
+body
+{
+background-color: #85877C;
 }
 
-header{
-  margin-top: -10px;
+.jumbotron{
+  height:700px;
+  /*width:100px;*/
   text-align: center;
   font-family: 'Corben', cursive;
   font-size: 30px;
+  background-color: #B4DACB;
 
 }
+h1{
+  font-size: 200%;
+  padding: 220px;
+}
 
-.categories{
+.tag p{
   text-align: center;
-  list-style: none;
+  font-size: 30px;
 }
-ul{
-  list-style: none;
-  float: left;
+
+.container-fluid{
+  height:800px;
+
+  background-color: #B4DACB;
 }
 .thecard {
+
+
   position: absolute;
-  top: 40%;
+  top: 140%;
   left: 50%;
   width: 300px;
   height: 500px;
