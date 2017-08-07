@@ -5,16 +5,26 @@ body
 {
 background-color: #85877C;
 }
-
-.jumbotron{
-  height:700px;
-  /*width:100px;*/
-  text-align: center;
-  font-family: 'Corben', cursive;
-  font-size: 30px;
-  background-color: #B4DACB;
+nav li{
+  list-style: none;
+  text-decoration: none;
+  float: left;
+  margin: 40px;
+}
+nav a:hover{
+  text-decoration: none;
 
 }
+.jumbotron{
+  height:700px;
+  /*width:100px;
+  text-align: center;
+  /*font-family: 'Corben', cursive;
+  font-size: 30px;*/
+  background-color: #FDC2C3;*/
+
+}
+
 h1{
   font-size: 200%;
   padding: 220px;
@@ -26,18 +36,19 @@ h1{
 }
 
 .container-fluid{
+
   height:650px;
 
-  background-color: #B4DACB;
+  background-color: #FDC2C3;
 }
 .container{
-  background-color: #B4DACB;
+  background-color: #FDC2C3;
 }
 .thecard {
 
 
   position: absolute;
-  top: 140%;
+  top: 40%;
   left: 50%;
   width: 300px;
   height: 500px;
@@ -65,17 +76,20 @@ h1{
 
 .frontcard,
 .backcard {
+
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #08ACA5;
+  background: #8CCAD8;
   /*line-height: 300px;*/
   color: white;
   text-align: center;
   font-size: 20px;
+  font-family: 'Cinzel', serif;
   border-style: solid;
   border-radius: 10px;
-  border-color: #B78E5A;
+  border-width: 5px;
+  border-color: #F4F9FB;
   backface-visibility: hidden;
 
 }
@@ -87,11 +101,13 @@ h1{
 }
 
 
-
+/*#image{
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}*/
 img{
   margin: 10px 1px 2px 1px;
-  border-style: solid;
-
   width: 250px;
   height: 250px;
 }
@@ -102,10 +118,9 @@ img{
 
 }
 #who{
-  margin:10px 25px 10px 25px;
-  padding: 4px;
-  border-style: solid;
-  border-radius: 10px;
+  margin:10px 25px 0px 25px;
+  font-size: 30px;
+
 }
 #what{
   margin:10px 25px 10px 25px;

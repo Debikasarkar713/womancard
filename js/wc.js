@@ -27,3 +27,22 @@
 //         $('#what div').hide().eq(num).show();
 //     });
 // });
+
+$(function () {
+    $('#who div').hide().eq(0).show();
+    $('#what div').hide().eq(0).show();
+    $('#when div').hide().eq(0).show();
+    $('#image div').hide().eq(0).show();
+
+    $('#tabs li').click(function () {
+        $('#who div').hide()
+        $('#what div').hide()
+        $('#when div').hide()
+        $('#image div').hide()
+        num = $('#tabs li').index(this);
+        $('#who div').hide().eq(num).show();
+        $('#what div').hide().eq(num).show();
+        $('#when div').hide().eq(num).show();
+        $('#image div').hide().eq(num).show();
+    });
+});
