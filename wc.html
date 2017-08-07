@@ -10,45 +10,139 @@
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/bootrsrap-responsive.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Corben:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-
 </head>
 
 <body>
-<div class="first">
-<div class="jumbotron jumbotron-fluid">
-    <h1 class="display-3"> Woman Card</h1>
-
-    <div class="tag"<p> We're here to play the cards we were dealt.</p></div>
-    </div>
-    </div>
-
-
-
-
-
-<div class="container-fluid">
-    <div class="thecard">
-        <div class="content">
-            <div class="frontcard">
-                <div class="image"><img src="rbg.jpg"></div>
-                <div class="who"><h5>Ruth Bader Ginsburg</h5></div>
-                <div class="what"><h5>SCOTUS</h5></div>
-                <div class="when"><H5>1993</H5></div>
+    <!-- <div class="first">
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="display-3"> Woman Card</h1>
+            <div class="tag" <p> We're here to play the cards we were dealt.</p>
             </div>
-            <div class="backcard">
-                <p>In 1972 RBG founded the Women's Rights Project and as its chief litigator,
-                briefed and argued several landmark cases in front of the Supreme Court.
-                Her victories in those cases directly led to the end of gender discrimination in
-                many areas of the law</p>
+        </div>
+    -->
+    <div class="jumbotron">
+        <nav>
+            <ul id="tabs">
+                <li><a href="#">Tech</a></li>
+                <li><a href="#">Government</a>
+
+            </ul>
+        </nav>
+        <div class="thecard">
+            <div class="content">
+                <div class="frontcard">
+                <div id="who">
+    <div id="who1">Hedy Lamar</div>
+    <div id="who2">Ruth Bader Ginsburg</div>
+</div>
+                    <div id="image">
+                    <div id="image1"><img src="hedy.jpg"></div>
+                    <div id="image2"><img src="rbg.jpg"></div>
+                    </div>
+
+
+
+<div id="what">
+    <div id="what1-2">Mother of Wifi</div>
+    <div id="what2-2">SCOTUS</div>
+</div>
+
+                    <div id="when">
+    <div id="when-2">sometime</div>
+    <div id="when-2">1993</div>
+</div>
+</div>
+                <div class="backcard">
+                    <p>In 1972 RBG founded the Women's Rights Project and as its chief litigator, briefed and argued several landmark cases in front of the Supreme Court. Her victories in those cases directly led to the end of gender discrimination in many areas of the law</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div style="display:inline-block;width:100%;overflow-y:auto;">
+                    <ul class="timeline timeline-horizontal">
+                        <li class="timeline-item">
+                            <div class="timeline-badge primary"><i class="glyphicon glyphicon-check"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds 1</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis faiz elementum girarzis, nisi eros gostis.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-badge success"><i class="glyphicon glyphicon-check"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds 2</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis faiz elementum girarzis, nisi eros gostis.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-badge info"><i class="glyphicon glyphicon-check"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds 3</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipisci. Mé faiz elementum girarzis, nisi eros gostis.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-badge danger"><i class="glyphicon glyphicon-check"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds 4</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-badge warning"><i class="glyphicon glyphicon-check"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds 5</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds 6</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
     </div>
-
+    </div>
+    <script src="js/wc.js" type="text/javascript"></script>
 </body>
 
 </html>
