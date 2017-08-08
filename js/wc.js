@@ -33,16 +33,19 @@ $(function () {
     $('#what div').hide().eq(0).show();
     $('#when div').hide().eq(0).show();
     $('#image div').hide().eq(0).show();
+    $('#para div').hide().eq(0).show();
 
-    $('#tabs li').click(function () {
+    $('button').click(function () {
         $('#who div').hide()
         $('#what div').hide()
         $('#when div').hide()
         $('#image div').hide()
-        num = $('#tabs li').index(this);
+        $('#para div').hide()
+        num = $('button').index(this);
         $('#who div').hide().eq(num).show();
         $('#what div').hide().eq(num).show();
         $('#when div').hide().eq(num).show();
         $('#image div').hide().eq(num).show();
+        $('#para div').hide().eq(num).show();
     });
 });
