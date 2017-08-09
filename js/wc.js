@@ -35,6 +35,7 @@ $(function () {
     $('#image div').hide().eq(0).show();
     $('#para div').hide().eq(0).show();
     $('#quote div').hide().eq(0).show();
+    $('#box div').hide().eq(0).show();
 
     $('button').click(function () {
         $('#who div').hide()
@@ -43,6 +44,8 @@ $(function () {
         $('#image div').hide()
         $('#para div').hide()
         $('#quote div').hide()
+        $('#box div').hide()
+
         num = $('button').index(this);
         $('#who div').hide().eq(num).show();
         $('#what div').hide().eq(num).show();
@@ -50,5 +53,7 @@ $(function () {
         $('#image div').hide().eq(num).show();
         $('#para div').hide().eq(num).show();
         $('#quote div').hide().eq(num).show();
+        $('#box div').hide().eq(num).show();
+
     });
 });
