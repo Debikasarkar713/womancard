@@ -35,7 +35,12 @@ $(function () {
     $('#image div').hide().eq(0).show();
     $('#para div').hide().eq(0).show();
     $('#quote div').hide().eq(0).show();
-    $('#box div').hide().eq(0).show();
+    // $('#boxone div').hide().eq(0).show();
+    // $('#boxtwo div').hide().eq(0).show();
+    // $('#boxthree div').hide().eq(0).show();
+    // $('#boxfour div').hide().eq(0).show();
+    // $('#boxfive div').hide().eq(0).show();
+    // $('#boxsix div').hide().eq(0).show();
 
     $('button').click(function () {
         $('#who div').hide()
@@ -44,7 +49,12 @@ $(function () {
         $('#image div').hide()
         $('#para div').hide()
         $('#quote div').hide()
-        $('#box div').hide()
+        // $('#boxone div').hide()
+        // $('#boxtwo div').hide()
+        // $('#boxthree div').hide()
+        // $('#boxfour div').hide()
+        // $('#boxfive div').hide()
+        // $('#boxsix div').hide()
 
         num = $('button').index(this);
         $('#who div').hide().eq(num).show();
@@ -53,7 +63,11 @@ $(function () {
         $('#image div').hide().eq(num).show();
         $('#para div').hide().eq(num).show();
         $('#quote div').hide().eq(num).show();
-        $('#box div').hide().eq(num).show();
-
+        // $('#boxone div').hide().eq(num).show();
+        // $('#boxtwo div').hide().eq(num).show();
+        // $('#boxthree div').hide().eq(num).show();
+        // $('#boxfour div').hide().eq(num).show();
+        // $('#boxfive div').hide().eq(num).show();
+        // $('#boxsix div').hide().eq(num).show();
     });
 });
